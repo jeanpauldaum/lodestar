@@ -131,7 +131,7 @@ def availability() -> dict:
         out["kokoro"] = (True, "kokoro-onnx" + ("" if models else " (models download on first use)"))
     else:
         out["kokoro"] = (False, "pip install kokoro-onnx soundfile")
-    piper_ok = bool(shutil.which("piper")) and bool(default_voice("piper"))
+    piper_ok = bool(shutil.which("piper")) and bool(DEFAULT_VOICES["piper"])
     out["piper"] = (piper_ok, "piper CLI + PIPER_MODEL")
     out["espeak"] = (bool(shutil.which("espeak-ng") or shutil.which("espeak")), "espeak-ng binary")
     return out
