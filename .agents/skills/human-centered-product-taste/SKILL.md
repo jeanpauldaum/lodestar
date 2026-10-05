@@ -129,3 +129,4 @@ Pair with **pptx**, **living-pitch-deck**, **quality-first-authorship** (human o
 - **fixed-vs-adaptive-surfaces** — classification  
 - **pptx** / **GROK_PPT_PITCH_DECK_FEED** — slide craft + pre-seed feed  
 - **avery-site-concierge** — FleetScale application (digital HQ host)  
+

@@ -88,3 +88,4 @@ Full operating contract: `~/.grok/skills/pptx/GROK_PPT_PITCH_DECK_FEED.md` (also
 - **fixed-vs-adaptive-surfaces** — decision checklist  
 - **pptx** / **living-pitch-deck** / **fleetscale-pitch-narrative** — deck production  
 - **human-centered-product-taste** — fixed surfaces must feel crafted  
+
